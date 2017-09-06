@@ -1,0 +1,27 @@
+{
+  "name": "ts-playground",
+  "version": "0.0.1",
+  "description": "Marco's TypeScript playground.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:ts",
+    "watch": "npm rum watch:ts",
+    "build:ts": "tsc",
+    "watch:ts": "tsc -w"
+  },
+  "keywords": [
+    "typescript",
+    "playground"
+  ],
+  "author": "Marco",
+  "license": "WTFPL",
+  "repository": {
+    "type": "none",
+    "url": "none://none.none"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "typescript": "^2.5.2"
+  }
+}
